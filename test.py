@@ -16,7 +16,7 @@ else:
     print("Something wrong!")
 
 #Test2
-message2 = "a"
+message2 = str([100101])
 my_impl2 = sha1(message2)
 lib_impl2 = hashlib.sha1(message2.strip().encode()).hexdigest()
 
